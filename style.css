@@ -1,0 +1,232 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f6fa;
+    color: rgb(29, 76, 126);
+    font-size: 14px
+}
+
+/* Header Section */
+.header {
+    background-color: rgb(28, 77, 127);
+    color: white;
+    text-align: center;
+    padding: 30px 20px 34px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.header p {
+    color: #c5e2ff;
+    margin-bottom: 22px;
+
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 25px;
+    padding: 7px 13px;
+    font-size: 12px;
+
+}
+
+/* About Section */
+.about-section {
+    background-color: white;
+    padding: 24px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+.about-section #about h2 {
+    color: rgb(16, 71, 121);
+    font-size: 20px;
+    padding-bottom: 12px;
+    margin-top: 0px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid rgb(217, 232, 248);
+}
+
+.about-section .about-text p {
+    margin-bottom: 12px;
+}
+
+.about-section .about-text p span {
+    color: rgb(34, 136, 196);
+    font-weight: bold;
+}
+
+.about-section .button {
+    display: inline-block;
+    background-color: #0869ad;
+    color: white;
+    text-decoration: none;
+    padding: 10px 17px;
+    border-radius: 7px;
+    font-size: 12px;
+}
+
+.about-section .profile-img {
+    width: 106px;
+    height: 106px;
+    border-radius: 50%;
+    border: 4px solid #e4f2f7;
+    float: left;
+    margin: 6px 20px 8px 6px;
+}
+
+/* Skills Section */
+.skills-section {
+    font-size: 12px;
+    background-color: white;
+    padding: 24px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.skills-section #skills h2 {
+    color: rgb(16, 71, 121);
+    font-size: 20px;
+    padding-bottom: 12px;
+    margin-top: 0px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid rgb(217, 232, 248);
+}
+
+.skills-description {
+    margin-bottom: 20px;
+}
+
+.skills-card {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 23%;
+    padding: 16px;
+    margin: 0 0.5% 12px;
+    text-align: left;
+    background-color: #f7faff;
+    border: 1px solid #e1ecfa;
+    border-radius: 12px;
+}
+
+.skills-card h3 {
+    color: #0068b5;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.skills-card p {
+    font-size: 12px;
+}
+
+/* Experience Section */
+.experience-section {
+    font-size: 12px;
+    background-color: white;
+    padding: 24px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.experience-section #experience h2 {
+    color: rgb(16, 71, 121);
+    font-size: 20px;
+    padding-bottom: 12px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid rgb(217, 232, 248);
+}
+
+.experience-card {
+    background-color: #f8fafc;
+    border: 1px solid #e1e8f0;
+    border-left: 3px solid #0871c6;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 15px;
+}
+
+.experience-header {
+    margin-bottom: 12px;
+}
+
+.TechCrop,
+.Digital {
+    width: 58px;
+    height: 58px;
+    float: left;
+    margin-right: 16px;
+    padding: 4px;
+    background-color: #ffffff;
+    border: 1px solid #dce9f8;
+    border-radius: 10px;
+}
+
+.experience-header h3 {
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.experience-header h4 {
+    color: #006bc0;
+    font-size: 12px;
+}
+
+.experience-header p {
+    font-size: 12px;
+}
+
+.experience-card p {
+    font-size: 12px;
+}
+
+/* Contact Section */
+
+.contact-section {
+    background-color: rgb(28, 77, 127);
+    color: #ffffff;
+    padding: 24px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(28, 77, 127);
+    border-radius: 16px;
+}
+
+.contact-section #contact h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(82, 118, 155);
+}
+
+.contact-links a {
+    display: inline-block;
+    color: #ffffff;
+    background-color: rgb(49, 94, 139);
+    padding: 8px 12px;
+    margin: 4px 2px;
+    text-decoration: none;
+    border: 1px solid rgb(82, 118, 155);
+    border-radius: 10px;
+}
+
+/* Footer Section */
+.footer {
+    background-color: rgb(7, 27, 54);
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.footer span {
+    color: rgb(86, 194, 255);
+    font-weight: bold;
+}
